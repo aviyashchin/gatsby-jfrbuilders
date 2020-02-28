@@ -32,11 +32,11 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              <li className="nav-howwework" role="menuitem">
+                <Link to={`/howwework`}>How We Work</Link>
               </li>
-              <li className="nav-tags" role="menuitem">
-                <Link to={`/tags`}>Tags</Link>
+              <li className="nav-projects" role="menuitem">
+                <Link to={`/projects`}>Projects</Link>
               </li>
             </ul>
           </nav>
@@ -48,37 +48,16 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://www.instagram.com/jfroesemannbuilders/"
+                title="instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Instagram
               </a>
-              <a
-                href="https://twitter.com"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
+              <li className="nav-contactus" role="menuitem">
+                <Link to={`/contact`}>Contact Us</Link>
+              </li>
             </div>
           </div>
         </div>

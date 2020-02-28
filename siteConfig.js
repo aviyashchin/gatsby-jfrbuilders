@@ -1,9 +1,10 @@
 module.exports = {
-  name: 'London After Midnight',
-  shortName: 'LAM',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
-  url: 'https://gatsby-lam.vaporwavy.io', // Domain of your site without prefix!
-  prefix: '/',
-  author: 'Vaporwavy',
-  twitter: ''
+  name: "J.F. Roesemann Builders",
+  shortName: "JFRB",
+  description:
+    "A father-daughter construction company building dream homes and quality residences in the Tri-State area since 1996.",
+  url: "https://jfrbuilders.com", // Domain of your site without prefix!
+  prefix: "/",
+  author: "Sammy",
+  twitter: "",
 }
