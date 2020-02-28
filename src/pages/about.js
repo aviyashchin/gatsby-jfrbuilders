@@ -42,6 +42,7 @@ const ContactPage = ({ data }, location) => {
             project management technique keeps even the most complex job on
             track from start to finish.
           </p>
+          <hr />
           <p>
             John Roesemann, the hands-on principal of our company, brings to
             every project his more than 30 years of experience in the

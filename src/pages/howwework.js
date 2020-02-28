@@ -24,6 +24,7 @@ const HowWeWorkPage = ({ data }, location) => {
             and clear communication. We ask questions and listen to our clients,
             to understand, anticipate and resolve their needs.
           </p>
+          <hr />
           <p>
             The other half of our equation for a successful project is to
             combine state-of-the-art construction management and building
