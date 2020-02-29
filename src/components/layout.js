@@ -35,12 +35,6 @@ const Layout = props => {
               <li className="nav-howwework" role="menuitem">
                 <Link to={`/howwework`}>How We Work</Link>
               </li>
-              <li className="nav-projects" role="menuitem">
-                <Link to={`/projects`}>Projects</Link>
-              </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>elements</Link>
-              </li>
             </ul>
           </nav>
           <div className="site-head-center">
@@ -57,6 +51,14 @@ const Layout = props => {
                 rel="noopener noreferrer"
               >
                 Instagram
+              </a>
+              <a
+                href="https://www.houzz.com/professionals/general-contractors/j-f-roesemann-builders-inc-pfvwus-pf~688237123"
+                title="houzz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Houzz
               </a>
               <li className="nav-contactus" role="menuitem">
                 <Link to={`/contact`}>Contact Us</Link>
