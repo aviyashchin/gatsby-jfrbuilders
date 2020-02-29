@@ -32,7 +32,7 @@ const ContactPage = ({ data }, location) => {
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
+            <figcaption>Samantha and John Roesemann</figcaption>
           </figure>
           <h3 id="dynamic-styles">Fine Home Building</h3>
           <p>
