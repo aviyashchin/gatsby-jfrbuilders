@@ -7,8 +7,6 @@ description: Fifth Avenue Apartment
 
 ![Clean lines](./DSC_0741.jpeg)
 
-![Clean lines](./mitch-lensink-588486-unsplash.jpg)
-
 ![Clean lines](./DSC_0808.jpeg)
 
 ![Clean lines](./DSC_0824.jpeg)
