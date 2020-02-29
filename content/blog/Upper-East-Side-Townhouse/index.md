@@ -1,6 +1,7 @@
 ---
 title: Upper East Side Townhouse
 date: "2019-05-05"
+tags: [vaporwave, retrowave, future-funk]
 thumbnail: ./Pricebackyard.jpg
 description: Upper East Side Townhouse
 ---
