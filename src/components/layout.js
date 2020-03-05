@@ -4,6 +4,14 @@ import { Link } from "gatsby"
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
+  const ScrollToLink = () => (
+    <Link to="/#projects">Scroll To My Cool Header</Link>
+  )
+  if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+  }
+
   return (
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
@@ -30,10 +38,13 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li> */}
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About Us</Link>
+                <Link to={`/about`}>About</Link>
               </li>
               <li className="nav-howwework" role="menuitem">
                 <Link to={`/howwework`}>How We Work</Link>
+              </li>
+              <li className="nav-project" role="menuitem">
+                <Link to={"/#projects"}>Projects</Link>
               </li>
             </ul>
           </nav>
@@ -73,15 +84,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>{" "}
       </footer>
     </div>
   )

@@ -29,6 +29,8 @@ const BlogIndex = ({ data }, location) => {
           </h2>
         </header>
       )}
+      <h2 id="projects"></h2>
+
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++

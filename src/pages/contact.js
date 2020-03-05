@@ -14,11 +14,14 @@ const HowWeWorkPage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO title="HowWeWork" />
-
       <article className="post-content page-template no-image">
-        <div className="post-content-body">
-          J.F. Roesemann Builders, Inc.
-          <div>Samantha Roesemann</div>
+        <div className="post-content-body-center" text-align-last="center">
+          <Img
+            fluid={data.JFRBLogo.childImageSharp.fluid}
+            style={{ width: 200, height: 200 }}
+            alt="J.F. Roesemann Builders, Inc."
+          />
+
           <div>
             <a href="tel:8453488833">Phone: (845) 348-8833</a>
           </div>
@@ -70,6 +73,14 @@ const indexQuery = graphql`
     ) {
       childImageSharp {
         fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    JFRBLogo: file(relativePath: { eq: "Logolightnoback.PNG" }) {
+      childImageSharp {
+        fluid(maxWidth: 200, maxHeight: 200) {
           ...GatsbyImageSharpFluid
         }
       }
