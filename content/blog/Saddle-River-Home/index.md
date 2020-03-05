@@ -1,7 +1,7 @@
 ---
 title: Saddle River Home
 date: "2019-05-05"
-thumbnail: ./EstoDoherty004.jpg
+thumbnail: ./EstoDoherty020.jpg
 description: Saddle River Home
 ---
 
@@ -11,7 +11,7 @@ description: Saddle River Home
 
 ![Clean lines](./DYFireplace.jpg)
 
-![Clean lines](./EstoDoherty020.jpg)
+![Clean lines](./EstoDoherty004.jpg)
 
 ![Clean lines](./EstoDoherty016.jpg)
 

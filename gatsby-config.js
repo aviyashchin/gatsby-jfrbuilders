@@ -79,7 +79,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-31129765-1`,
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-31129765-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "jfrbuilders.com",
       },
     },
     `gatsby-plugin-feed`,
@@ -92,7 +100,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/gatsbyicon.png`,
       },
     },
     `gatsby-plugin-netlify`,
