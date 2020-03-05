@@ -45,10 +45,19 @@ const ContactPage = ({ data }, location) => {
           <hr />
           <p>
             John Roesemann, the hands-on principal of our company, brings to
-            every project his more than 30 years of experience in the
+            every project his more than 40 years of experience in the
             construction of quality homes. From townhomes and apartments in the
             city to country estates, his understanding of the profession helps
             to ease the process for clients and their design teams.
+          </p>
+          <p>
+            Samantha Roesemann is our Vice President. With almost 10 years of
+            experience with J.F. Roesemann Builders, she leads construction
+            projects from concept to completion. Samantha oversees operations
+            and works actively in the field, meeting with clients, design teams
+            and construction teams. She utilizes her technical knowledge and
+            field coordination to execute design visions and realize client
+            requests.
           </p>
           <p>
             Open communication and sensitivity to his clients' concerns have
