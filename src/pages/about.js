@@ -61,9 +61,10 @@ const ContactPage = ({ data }, location) => {
           </p>
           <p>
             Open communication and sensitivity to his clients' concerns have
-            earned him the trust and respect of renowned Architects and
-            Designers in the area.
+            earned us the trust and respect of renowned Architects and Designers
+            in the area.
           </p>
+          <hr />
           <p>
             Reflecting the uniquely personalized nature of our work, we offer a
             variety of professional services for all types and scales of
@@ -77,6 +78,9 @@ const ContactPage = ({ data }, location) => {
             <li> Estimating</li>
             <li> Critical path scheduling</li>
             <li> In-house carpentry</li>
+            <li> Feasability Studies</li>
+            <li> Historical Renovation</li>
+            <li> Sustainable Building</li>
           </p>
         </div>
       </article>
