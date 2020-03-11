@@ -21,11 +21,16 @@ const ContactPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            J. F. Roesemann Builders, Inc. is dedicated to the creation of
-            distinctive private residences in the greater New York area.
-            Established in 1996, we bring an organized, detail oriented approach
-            to the process of building unique homes to suit the individual needs
-            of our clients.
+            <p>
+              Established in 1996, we bring an organized, detail oriented
+              approach to the process of building homes uniquely suited to the
+              individual needs of our clients.{" "}
+            </p>
+            <p>
+              Open communication and sensitivity to our clients' concerns have
+              earned us the trust and respect of renowned Architects and
+              Designers in the area.
+            </p>
           </h2>
           <figure className="kg-card kg-image-card kg-width-full">
             <Img
@@ -35,7 +40,7 @@ const ContactPage = ({ data }, location) => {
             <figcaption>Samantha and John Roesemann</figcaption>
           </figure>
           <h3 id="dynamic-styles">Fine Home Building</h3>
-          <p>
+          <p id="center">
             Our firm is well versed in the intricacies and aesthetics of fine
             home building and draws on knowledge of both modern and traditional
             techniques to provide truly superior results. A strong emphasis on

@@ -603,6 +603,11 @@ body {
   }
 }
 
+.post-content-body a {
+  color: var(--color-base);
+  text-align: center;
+}
+
 .post-content-body h1,
 .post-content-body h2,
 .post-content-body h3,
